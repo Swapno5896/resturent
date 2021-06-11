@@ -9,6 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import ReservationComp from './components/ReservationComp/ReservationComp';
+import Shop from './components/Shop/Shop';
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
         </Route>
         <Route path="/reservation">
           <ReservationComp></ReservationComp>
+        </Route>
+        <Route path="/shop">
+          <Shop></Shop>
         </Route>
       </Switch>
     </Router>
